@@ -15,9 +15,6 @@
     display: inline-block;
 	align-self: center;
 	padding: 5px 15px;
-}
-
-.nav-bar ul li a {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -27,7 +24,7 @@
 	display: inline-block;
 }
 
-.nav-bar ul li a::after {
+.nav-bar ul li::after {
 	content: "";
 	display: block;
 	width: 0px;
@@ -36,7 +33,7 @@
 	transition: all 0.3s ease-in-out;
 }
 
-.nav-bar ul li a:hover::after {
+.nav-bar ul li:hover::after {
 	width: 100%;
 }
 
